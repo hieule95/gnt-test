@@ -43,7 +43,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+@import url('https://fonts.googleapis.com/css?family=Domine:400,700&subset=latin-ext');
 
   h1,
   h3 {
@@ -90,8 +90,14 @@
   }
 
   .btn--text {
-    font-family: 'Baloo Chettan', cursive;
-    -webkit-text-fill-color: #ffffff;
-    -webkit-text-stroke: 2px #3b2c58;
+  font-family: Domine, Helvetica Light, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 5px;
+  background: -webkit-linear-gradient( -90deg,    #5f5476 15%,    #b7a6db 25%,  #5f5476 45%, #b7a6db 75%, #444444 80%  );
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 10px transparent;
+  color: rgb(255, 255, 255);
   }
 </style>
